@@ -34,14 +34,14 @@ export default function NavbarList({ onClose }: Props) {
           <CloseIcon />
         </button>
         <div className="list-none  hover:text-orange cursor-pointer transition-colors">
-          <a href="/#benefits"> Benefits</a>
+          <a href="#benefits"> Benefits</a>
         </div>
 
         <div className="list-none  hover:text-orange cursor-pointer transition-colors mt-2 lg:mt-0">
-          <a href="/#work"> Work</a>
+          <a href="#results"> Work</a>
         </div>
 
-        <motion.div
+        {/* <motion.div
           onClick={handleModal}
           className="list-none mt-2 lg:mt-0 flex flex-row items-center gap-1 hover:text-orange cursor-pointer relative transition-colors"
         >
@@ -49,7 +49,7 @@ export default function NavbarList({ onClose }: Props) {
           <span className="hidden lg:inline-block">
             <ArrowDown />
           </span>
-        </motion.div>
+        </motion.div> */}
 
         {isModalVisible && (
           <>
@@ -101,7 +101,7 @@ export default function NavbarList({ onClose }: Props) {
           </>
         )}
 
-        <div className="ml-10 list-none text-lg lg:hidden font-normal">
+        {/* <div className="ml-10 list-none text-lg lg:hidden font-normal">
           <Link
             href={"/website-development"}
             className="flex flex-row gap-2 items-center"
@@ -111,7 +111,8 @@ export default function NavbarList({ onClose }: Props) {
           <Link href={"/seo"} className="flex flex-row gap-2 items-center">
             <HrIcon /> Seo for Shopify Stores
           </Link>
-        </div>
+        </div> */}
+        
         <div className="list-none  mt-2 lg:mt-0 hover:text-orange cursor-pointer transition-colors">
           <a href="/#testimonials"> Testimonials</a>
         </div>

@@ -17,7 +17,7 @@ export default function SeoPage() {
         <ResultsSection />
         <BenefitSection />
         <ProcessSection />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <PricingSectionSeo />
         <FAQSection />
         <CalendarSection />

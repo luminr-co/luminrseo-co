@@ -32,15 +32,15 @@ export default function Footer() {
           </ul>
           <div className="font-normal flex lg:flex-row flex-col lg:gap-16 gap-4">
             <ul className="list-none flex flex-col gap-4">
-              <li><Link href="/website-development">Web Development</Link></li>
-              <li><Link href="/seo">SEO for Shopify Stores</Link></li>
-              <li><a href="/#benefits">Benefits</a></li>
-              <li><a href="/#work">Work</a></li>
+              {/* <li><Link href="/website-development">Web Development</Link></li> */}
+              {/* <li><Link href="/seo">SEO for Shopify Stores</Link></li> */}
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#results">Work</a></li>
             </ul>
             <ul className="list-none flex flex-col gap-4">
-              <li><a href="/#testimonials">Testimonials</a></li>
-              <li><a href="/#pricing">Packages</a></li>
-              <li><a href="/#faq">FAQ</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#pricing">Packages</a></li>
+              <li><a href="#faq">FAQ</a></li>
             </ul>
           </div>
           <div className="flex flex-col gap-3 justify-end lg:items-end items-start">

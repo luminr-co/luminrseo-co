@@ -8,14 +8,16 @@ export default function CalendarSection() {
       sectionName=""
       sectionTitle={
         <>
-          Hop on
-          <span className="text-orange"> free call </span>
+       Hop on a 30 Minute 
+          <span className="text-orange block">{" "}
+No-Obligation Call
           today
+          </span>
         </>
       }
     >
       <CalendarComponent
-        calllink="luminr/discovery-call"
+        calllink="luminr/discovery-call-seo"
         namespace="discovery-call"
       />
     </SectionContainer>
